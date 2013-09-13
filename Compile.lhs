@@ -1,11 +1,11 @@
 > module Compile where
 
-> import List
-> import Char
+> import Data.List
+> import Data.Char
 > import Syntax
 > import Fresh
 > import Flatten
-> import Monad
+> import Control.Monad
 > import Case
 > import Traversals
 

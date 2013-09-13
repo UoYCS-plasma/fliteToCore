@@ -1,7 +1,7 @@
 module Flatten where
 
 import Syntax
-import Monad
+import Control.Monad
 import Fresh
 
 -- Flatten a possibly deeply-nested expression into a list of flat

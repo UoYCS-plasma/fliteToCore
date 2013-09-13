@@ -2,7 +2,7 @@ import Syntax
 import Parse
 import Pretty
 import Flic
-import System
+import System.Environment
 
 main :: IO ()
 main =

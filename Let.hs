@@ -5,7 +5,7 @@ import Traversals
 import Descend
 import Fresh
 import Dependency
-import List
+import Data.List
 
 mkLet :: [Binding] -> Exp -> Exp
 mkLet [] e = e
